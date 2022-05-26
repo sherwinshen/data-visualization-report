@@ -47,11 +47,19 @@ const handleFullScreen = () => {
 <style lang="less" scoped>
 .card-wrapper {
   &.full-screen {
+    z-index: 9999;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    :deep(.el-card__body) {
+      box-sizing: border-box;
+      height: calc(100vh - 61px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
   .card-header {
     display: flex;

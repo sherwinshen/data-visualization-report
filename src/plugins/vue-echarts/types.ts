@@ -7,6 +7,7 @@ import {
   CustomSeriesOption,
   SunburstSeriesOption,
   MapSeriesOption,
+  RadarSeriesOption,
 } from "echarts/charts";
 import {
   TitleComponentOption,
@@ -24,6 +25,7 @@ export type ECOption = ComposeOption<
   | CustomSeriesOption
   | SunburstSeriesOption
   | MapSeriesOption
+  | RadarSeriesOption
   | TitleComponentOption
   | TooltipComponentOption
   | GridComponentOption

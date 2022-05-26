@@ -1,6 +1,6 @@
 import VueECharts from "vue-echarts";
 import { use } from "echarts/core";
-import { BarChart, PieChart, LineChart, CustomChart, SunburstChart, MapChart } from "echarts/charts";
+import { BarChart, PieChart, LineChart, CustomChart, SunburstChart, MapChart, RadarChart } from "echarts/charts";
 import {
   TitleComponent,
   TooltipComponent,
@@ -24,6 +24,7 @@ use([
   CustomChart,
   SunburstChart,
   MapChart,
+  RadarChart,
   TitleComponent,
   TooltipComponent,
   GridComponent,

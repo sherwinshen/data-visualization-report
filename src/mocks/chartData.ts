@@ -1180,7 +1180,6 @@ const chartData = {
   salesSun: [
     {
       name: "小食",
-      itemStyle: { color: "rgb(0,123,255)" },
       children: [
         {
           name: "奶茶",
@@ -1203,7 +1202,6 @@ const chartData = {
     },
     {
       name: "主食",
-      itemStyle: { color: "rgb(0,218,234)" },
       children: [
         {
           name: "米饭",
