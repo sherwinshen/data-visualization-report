@@ -59,6 +59,10 @@ const handleFullScreen = () => {
       display: flex;
       justify-content: center;
       align-items: center;
+      .chart-wrapper {
+        height: 100%;
+        width: 100%;
+      }
     }
   }
   .card-header {

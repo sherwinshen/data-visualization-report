@@ -1,6 +1,8 @@
 <template>
   <card-wrapper title="数据雷达图" :has-header-full="true">
-    <v-chart class="chart" :option="option" autoresize></v-chart>
+    <div class="chart-wrapper">
+      <v-chart class="chart" :option="option" autoresize></v-chart>
+    </div>
   </card-wrapper>
 </template>
 
@@ -31,7 +33,10 @@ const option = {
 </script>
 
 <style lang="less" scoped>
-.chart {
+.chart-wrapper {
   height: 360px;
+  .chart {
+    height: 100%;
+  }
 }
 </style>
